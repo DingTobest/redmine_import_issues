@@ -14,7 +14,7 @@ class CreateImportActions < ActiveRecord::Migration
 
       t.text :headers
 
-      t.text :log, :limit => 4294967295
+      t.text :log, :limit => 1000000000
 
       t.boolean :is_template
 
